@@ -1,0 +1,10 @@
+.linha{
+    background: gray;
+    border-right: 2px solid yellow;
+}
+
+.linhaA{
+    background: gray;
+    border-right: 2px solid yellow;
+    border-left: 2px solid yellow;
+}
