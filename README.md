@@ -6,3 +6,4 @@ Esse repositório é dedicado para as atividades do curso de Bootstrap 3, minist
 
 Durante o curso serão ministrados os seguintes conteúdos:
 * Introdução ao Bootstrap.
+* Grids.

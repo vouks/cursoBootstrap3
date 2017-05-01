@@ -1,68 +1,91 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1" media="screen">
-    <!-- As 3 meta tags acima *devem* vir em primeiro lugar dentro do `head`; qualquer outro conteúdo deve vir *após* essas tags -->
-    
-    <title>Curso Bootstrap</title>
 
-    <!-- Adicionar CSS Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <!-- Adicionar CSS Personalizado -->
-    <link href="css/style.css" rel="stylesheet" media="screen">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1" media="screen">
+  <!-- As 3 meta tags acima *devem* vir em primeiro lugar dentro do `head`; qualquer outro conteúdo deve vir *após* essas tags -->
 
-  </head>
-  <body>
-   
-   <div class="container">
-      <div class="row">
-        <div class="col-md-1 linhaA">
-          Linha 1
+  <title>Curso Bootstrap</title>
+
+  <!-- Adicionar CSS Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <!-- Adicionar CSS Personalizado -->
+  <link href="css/style.css" rel="stylesheet" media="screen">
+
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-6 texto1">
+
+        <div class="row">
+          <div class="col-xs-4 col-sm-12 texto1">1</div>
+          <div class="col-xs-4 col-sm-12 texto1">2</div>
+          <div class="col-xs-4 col-sm-12 texto1">3</div>
         </div>
-        <div class="col-md-1 linha">
-          Linha 1
-        </div>
-        <div class="col-md-1 linha">
-          Linha 1
-        </div>
-        <div class="col-md-1 linha">
-          Linha 1
-        </div>
-        <div class="col-md-1 linha">
-          Linha 1
-        </div>
-        <div class="col-md-1 linha">
-          Linha 1
-        </div>
-        <div class="col-md-1 linha">
-          Linha 1
-        </div>
-        <div class="col-md-1 linha">
-          Linha 1
-        </div>
-        <div class="col-md-1 linha">
-          Linha 1
-        </div>
-        <div class="col-md-1 linha">
-          Linha 1
-        </div>
-        <div class="col-md-1 linha">
-          Linha 1
-        </div>
-        <div class="col-md-1 linha">
-          Linha 1
+
+        <div class="row">
+          <div class="col-xs-4 texto1">4</div>
+          <div class="col-xs-4 texto1">5</div>
+          <div class="col-xs-4 texto1">6</div>
         </div>
 
       </div>
-   </div>
-   
-    <!-- jQuery (obrigatório para plugins JavaScript do Bootstrap) -->
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <!-- Inclui todos os plugins compilados (abaixo), ou inclua arquivos separadados se necessário -->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- JS personalizados -->
-    <script src="js/main.js"></script>
-  </body>
+
+      <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 texto2">
+        <b>Texto 2</b>
+      </div>
+    </div>
+
+    <hr/>
+
+    <h1>Introdução de Offset</h1>
+
+    <div class="row">
+      <div class="col-xs-4 texto2">4 primeiras colunas</div>
+
+      <div class="col-xs-6 col-xs-offset-2 texto1">Quero ocupar as 6 ultimas colunas</div>
+    </div>
+
+    <hr/>
+
+    <h1>Centralizando o texto com Offset</h1>
+
+    <div class="row">
+      <div class="col-xs-10 col-xs-offset-1 texto2">10 espaços centrais</div>
+    </div>
+
+    <hr/>
+
+    <div clas="row">
+      <div class="col-xs-12">
+        <div class="row">
+          <div class="col-xs-12 col-md-6">
+            <div class="row">
+              <div class="col-xs-12 col-md-10 col-md-offset-2 texto1">Teste de aninhamento</div>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-md-6">
+            <div class="row">
+              <div class="col-xs-12 col-md-10 col-md-offset-2 texto2">Teste de aninhamento</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- jQuery (obrigatório para plugins JavaScript do Bootstrap) -->
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <!-- Inclui todos os plugins compilados (abaixo), ou inclua arquivos separadados se necessário -->
+  <script src="js/bootstrap.min.js"></script>
+  <!-- JS personalizados -->
+  <script src="js/main.js"></script>
+</body>
+
 </html>
