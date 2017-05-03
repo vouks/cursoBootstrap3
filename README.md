@@ -8,3 +8,4 @@ Durante o curso serão ministrados os seguintes conteúdos:
 * Introdução ao Bootstrap
 * Grids
 * Tipografia
+* Tabela
