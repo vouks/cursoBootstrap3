@@ -9,3 +9,4 @@ Durante o curso serão ministrados os seguintes conteúdos:
 * Grids
 * Tipografia
 * Tabela
+* Formulário

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1" media="screen">
+    <!-- As 3 meta tags acima *devem* vir em primeiro lugar dentro do `head`; qualquer outro conteúdo deve vir *após* essas tags -->
+
+    <title>Curso Bootstrap</title>
+
+    <!-- Adicionar CSS Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <!-- Adicionar CSS Personalizado -->
+    <link href="css/style.css" rel="stylesheet" media="screen">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+
+                <form class="form-horizontal">
+
+                    <div class="form-group">
+                        <label for="nome" class="col-xs-2 control-label">Nome completo:</label>
+                        <div class="col-xs-10">
+                            <input type="text" class="form-control" id="nome1" placeholder="Digite aqui o nome">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="tipo" class="col-xs-2 control-label">Tipo:</label>
+                        <div class="col-xs-10">
+                            <select class="form-control">
+              <option>Pessoa física</option>
+              <option>Pessoa jurídica</option>
+              </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="tipo" class="col-xs-2 control-label">Selecione:</label>
+                        <div class="col-xs-10">
+                            <label class="checkbox-inline">
+                <input type="checkbox" id="id1" value="1">1
+              </label>
+                            <label class="checkbox-inline">
+                <input type="checkbox" id="id1" value="2">2
+              </label>
+                            <label class="checkbox-inline">
+                <input type="checkbox" id="id1" value="3">3
+              </label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-xs-2 control-label">Seu e-mail:</label>
+                        <div class="col-xs-10">
+                            <p class="form-control-static">renan_nola@hotmail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="form-group has-success has-feedback">
+                        <label for="nome" class="col-xs-2 control-label">Nome completo:</label>
+                        <div class="col-xs-10">
+                            <input type="text" class="form-control" id="nome1" placeholder="Digite aqui o nome">
+
+                            <span class="glyphicon glyphicon-ok form-control-feedback"></span>
+                        </div>
+                    </div>
+
+                    <div class="form-group has-warning has-feedback">
+                        <label for="nome" class="col-xs-2 control-label">Nome completo:</label>
+                        <div class="col-xs-10">
+                            <input type="text" class="form-control" id="nome1" placeholder="Digite aqui o nome">
+
+                            <span class="glyphicon glyphicon-warning-sign form-control-feedback"></span>
+                        </div>
+                    </div>
+
+                    <div class="form-group has-error has-feedback">
+                        <label for="nome" class="col-xs-2 control-label">Nome completo:</label>
+                        <div class="col-xs-10">
+                            <input type="text" class="form-control" id="nome1" placeholder="Digite aqui o nome">
+
+                            <span class="glyphicon glyphicon-remove form-control-feedback"></span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="nome" class="col-xs-2 control-label">Nome completo:</label>
+                        <div class="col-xs-10">
+                            <input type="text" class="form-control input-lg" id="nome1" placeholder="Digite aqui o nome">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="nome" class="col-xs-2 control-label">Nome completo:</label>
+                        <div class="col-xs-10">
+                            <input type="text" class="form-control input-sm" id="nome1" placeholder="Digite aqui o nome">
+                        </div>
+                    </div>
+
+                    <div class="form-group form-group-lg">
+                        <label for="nome" class="col-xs-2 control-label">Nome completo:</label>
+                        <div class="col-xs-10">
+                            <input type="text" class="form-control" id="nome1" placeholder="Digite aqui o nome">
+
+                            <span class="help-block">Texto de ajuda</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group form-group-sm">
+                        <label for="nome" class="col-xs-2 control-label">Nome completo:</label>
+                        <div class="col-xs-10">
+                            <input type="text" class="form-control" id="nome1" placeholder="Digite aqui o nome">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-xs-offset-6 col-xs-6">
+                            <button type="submit" class="btn btn-default">Enviar formulário</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery (obrigatório para plugins JavaScript do Bootstrap) -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <!-- Inclui todos os plugins compilados (abaixo), ou inclua arquivos separadados se necessário -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- JS personalizados -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

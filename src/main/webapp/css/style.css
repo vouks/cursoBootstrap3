@@ -7,6 +7,11 @@ td{
     text-align: center;
 }
 
-.table{
-    margin-top: 20px;
+.container{
+   margin-top: 10px;
 }
+
+.btn{
+    background: #20b9eb;
+}
+
