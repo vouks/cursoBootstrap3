@@ -11,3 +11,5 @@ Durante o curso serão ministrados os seguintes conteúdos:
 * Tabela
 * Formulário
 * Botões
+* Imagens
+* Classes auxiliares
